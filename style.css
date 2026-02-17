@@ -71,8 +71,11 @@
       border: none;
     }
     .story-title {
-  font-size: clamp(2rem, 5vw, 6rem); /* scales between mobile and desktop */
-}
+      font-size: 6rem;
+      font-family: "Kavoon", serif;
+      font-weight: bolder;
+      color: #000;
+    }
 
     .story-title2 {
       font-size: 6rem;
@@ -478,7 +481,7 @@
       border: none;
     }
     .btn-hire:hover {
-      background-color: #333;
+      backround-color:#333;
       color: #fff;
     }
 
@@ -490,30 +493,4 @@
   font-family: "Playwrite NZ Basic Guides", cursive;
   font-weight: 400;
   font-style: normal;
-}
-
-
-@media (max-width: 768px) {
-  .story-title {
-    font-size: 3rem;
-    text-align: center;
-  }
-  .hero {
-    height: 60vh; /* smaller hero on mobile */
-  }
-  .photo-section {
-    height: 60vh;
-  }
-}
-
-.story-img, .intro-img, .blog-img, .contact-img {
-  max-width: 100%;
-  height: auto;
-}
-
-
-
-.btn {
-  padding: clamp(8px, 2vw, 12px) clamp(20px, 5vw, 30px);
-  font-size: clamp(0.9rem, 2vw, 1.2rem);
 }
